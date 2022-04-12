@@ -23,8 +23,8 @@ const Portfolio = () => {
         project.map(myproject=>{
           return(
            
-                <div className="card" style={{width: "18rem"}}>
-                <img className="card-img-top" src={img1} alt="Clinic" style={{borderRadius:'15px 50px'}}/>
+                <div className="card" >
+                <img className="card-img-top" src={img2} alt="Clinic"/>
                 <div className="card-body">
                   <h5 className="card-title">{myproject.name}</h5>
                   <p className="card-text">{myproject.pushed_at}</p>
@@ -63,8 +63,9 @@ const Portfolio = () => {
              </div>
            </div>
          
-       </div> */}
-    </section></div>
+    </div> */}
+    </section>
+    </div>
   )
 }
 

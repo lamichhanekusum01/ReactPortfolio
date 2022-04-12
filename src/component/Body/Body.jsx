@@ -14,9 +14,9 @@ function Body() {
            <button>Download CV</button>
             </div>
             <div id="icon">
-          <a href="https://www.instagram.com/kushum__/" rel="noreferrer" target="_blank"> <div className="Icon1"></div></a>
-          <a href="https://www.facebook.com/kusum.lamichhane.9"rel="noreferrer" target="_blank"> <div className="Icon2"><i className="fab fa-facebook-f"></i></div></a>
-          <a href="https://www.linkedin.com/in/kusum-lamichhane/ "rel="noreferrer"target="_blank" ><div className="Icon3"><i className="fab fa-linkedin-in"></i></div></a>
+          <a href="https://www.instagram.com/kushum__/" rel="noopener noreferrer"  target="_blank"> <div className="Icon1"></div></a>
+          <a href="https://www.facebook.com/kusum.lamichhane.9" rel="noopener noreferrer"  target="_blank"> <div className="Icon2"><i className="fab fa-facebook-f"></i></div></a>
+          <a href="https://www.linkedin.com/in/kusum-lamichhane/ " rel="noopener noreferrer"  target="_blank" ><div className="Icon3"><i className="fab fa-linkedin-in"></i></div></a>
 
        </div>
      
