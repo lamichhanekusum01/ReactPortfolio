@@ -1,0 +1,79 @@
+.btn-card {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+card-img-top {
+    border-radius: 15px 50px;
+  }
+  
+  .card-img-top {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+  
+  #icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+    position: absolute;
+    right: 18%;
+    bottom: 20%;
+    z-index: 30;
+  }
+  
+  #icon div {
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .Icon1 {
+    background-image: url("../../Image/1.png");
+  }
+  
+  .Icon2 {
+    color: white;
+  }
+  
+  .Icon3 {
+    color: white;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 85px;
+    padding: 10px 125px;
+  }
+  
+  .Section-head h1 {
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+    color: #7462E1;
+    font-weight: bold;
+    font: 300 60px 'Oswald', sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .card-title {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #120844;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .card-text {
+    width: fit-content;
+  }
+ .topwrap
+ {
+ display: flex !important;
+ justify-content: space-around;
+ }

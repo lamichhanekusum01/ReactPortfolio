@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+.home {
+    height: 10vh;
+    position: relative;
+    z-index: 20px;
+  }
+  
+  .home nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .home nav > div {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+  }
+  
+  .home nav a {
+    display: inline-block;
+    color: #7462E0;
+    padding: 15px, 125px !important;
+  }
+  
+  .home nav > div a:hover {
+    color: aliceblue;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav h1 {
+    color: #7462E0;
+  }
+  
+  
