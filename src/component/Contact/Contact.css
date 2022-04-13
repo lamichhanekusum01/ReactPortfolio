@@ -4,6 +4,8 @@
    
     height: 100%;
     background-color:#7C4DFF;
+  
+   
   }
   
   .section-header {
@@ -82,6 +84,7 @@
   /* Begin Right Contact Page */
   .direct-contact-container {
     max-width: 400px;
+    
   }
   
   /* Location, Phone, Email Section */
@@ -134,10 +137,13 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
+
+   
   }
   
   .social-media-list li a {
     color: #fff;
+
   }
   
   .social-media-list li {
@@ -152,22 +158,8 @@
     background-color:rgb(176, 176, 230);
     cursor: pointer; 
     transition: all .2s ease-in-out;
+    
   }
-  
-  .social-media-list li:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
-    transition: all .2s ease-in-out;
-  }
-  
   .social-media-list li:hover {
     background-color: #fff; 
   }
@@ -212,11 +204,10 @@
       width: 60px;
       line-height: 60px;
     }
-    .social-media-list li:after {
-      width: 60px;
-      height: 60px;
-      line-height: 60px;
-    }
+    
+  }
+  a{
+    z-index: 100;
   }
   
   @media screen and (max-width: 569px) {
@@ -248,11 +239,10 @@
       line-height: 55px;
       font-size: 2rem;
     }
-    .social-media-list li:after {
-      width: 55px;
-      height: 55px;
-      line-height: 55px;
+    .social-media-list li a{
+      z-index:3;
     }
+    
     
   }
   
@@ -261,3 +251,4 @@
       width: 99%;
     }
   }
+  

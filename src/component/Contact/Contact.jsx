@@ -51,16 +51,16 @@ function Contact() {
   
           <hr></hr>
           <ul class="social-media-list">
-            <li><a href="contact" target="_blank" class="contact-icon">
-            <i class="fab fa-github"></i></a>
+            <li><a href="https://github.com/lamichhanekusum01" target="_blank" class="contact-icon">
+            <i class="fab fa-github"></i> </a>
             </li>
-            <li><a href="contact" target="_blank" class="contact-icon">
+            <li><a href="https://www.facebook.com/kusum.lamichhane.9/" target="_blank" class="contact-icon">
             <i class="fab fa-facebook-f"></i></a>
             </li>
-            <li><a href="contact" target="_blank" class="contact-icon">
+            <li><a href="https://www.linkedin.com/in/kusum-lamichhane/" target="_blank" class="contact-icon">
             <i class="fab fa-linkedin-in"></i></a>
             </li>
-            <li><a href="contact" target="_blank" class="contact-icon">
+            <li><a href="https://www.instagram.com/kushum__/" target="_blank" class="contact-icon">
             <i class="fab fa-instagram"></i></a>
             </li>       
           </ul>

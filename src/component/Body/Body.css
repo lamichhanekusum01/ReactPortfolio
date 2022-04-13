@@ -10,15 +10,15 @@ body {
     background-size: contain;
     height: 100vh;
     width: 100vw;
-    z-index: 20;
+    z-index:1;
     top: 0;
     left: 0;
   }
   main {
     position: relative;
-    height: 90vh;
-  
+    height: 90vh;  
     overflow: hidden;
+    
   }
   .right-circle {
     background: #7462E1;
@@ -27,6 +27,7 @@ body {
     height: 80vw;
     margin-left: 60%;
     position: absolute;
+    z-index: 0;
   }
   #icon a:hover {
     color: #7462E0;
@@ -38,6 +39,7 @@ body {
     margin-top: 120px;
     height: 400px;
     width: 500px;
+    z-index:5;
   }
   
   .content p {
@@ -45,7 +47,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
-  .content h1 {
+  .title  {
     font-size: 50px;
     color: #120844;
     margin-top: 80px;
@@ -60,4 +62,17 @@ body {
     margin-top: 20px;
     width: 100px;
     height: 40px;
+    z-index:10;
+  }
+  .content button a{
+    color: white;
+    text-decoration: none;
+  }
+  .skill span {
+   margin: 30px auto; 
+    color: black;
+    font-size: 5px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
   }

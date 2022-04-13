@@ -40,5 +40,8 @@
   nav h1 {
     color: #7462E0;
   }
-  
+  header.sticky{
+    background-color: white;
+    padding: 10px 0px;
+  }
   
