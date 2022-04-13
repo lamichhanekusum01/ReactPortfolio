@@ -25,7 +25,7 @@ function Body() {
               <br /> Lamichhane
             </h1>
             <p className="skill">
-              I am <span><Type /></span><br />
+              <span><Type /></span><br />
               Developer based in Kathmandu, Nepal
             </p>
            

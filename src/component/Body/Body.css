@@ -45,14 +45,17 @@ body {
   .content p {
     color: #A4A2B2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
   }
   
   .title  {
     font-size: 50px;
     color: #120844;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-right: 120px;
     line-height: 70px;
+    margin-bottom: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .content button {
@@ -76,3 +79,11 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
   }
+  .skill p{
+    font-size: 50px;
+  }
+ .title h1
+ {
+   margin-bottom: 20px;
+   font-family: cursive;
+ }
