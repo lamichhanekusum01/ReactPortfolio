@@ -51,7 +51,7 @@
   textarea {
     max-width: 400px;
     background-color: white;
-    color: #fff;
+    color:#AD8FE5;    
     /* letter-spacing: 1px; */
   }
   
@@ -219,6 +219,7 @@
     .form-control, textarea {
       
       margin: 0 auto;
+      color:#555;
     }
    
     

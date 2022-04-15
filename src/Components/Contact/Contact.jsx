@@ -1,8 +1,42 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 import './Contact.css'
 
 
 function Contact() {
+
+    const initialValues = { name: "", email: "", textarea: "" };
+    const [formValues, setFormValues] = useState(initialValues);
+    const [formErrors, setFormErrors] = useState({});
+    const [isSubmit, setIsSubmit] = useState();
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormValues({ ...formValues, [name]: value });
+      console.log(formValues);
+      
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormErrors(validate(formValues));
+    setIsSubmit(true);
+    setFormValues(initialValues);
+  };
+  const validate = (values) => {
+    const errors = {};
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (!values.fullName) {
+      errors.fullName = "Fullname is required";
+    }
+    if (!values.email) {
+      errors.email = "email is required";
+    } else if (!regex.test(values.email)) {
+      errors.email = "This is not a valid email";
+    }
+    if (!values.textarea) {
+      errors.textarea = "textarea is required";
+    }
+    return errors;
+  };
+    
   return (
     <div><section id="contact">
   
@@ -12,21 +46,24 @@ function Contact() {
     
     {/* <!-- Left contact page -->  */}
       
-      <form id="contact-form" class="form-horizontal">
+      <form id="contact-form" class="form-horizontal"  onSubmit={handleSubmit}>
          
         <div class="form-group">
           <div class="col-sm-12">
-            <input type="text" class="form-control"  placeholder="NAME" name="name" value="" required/>
+            <input type="text" class="form-control"  placeholder="NAME" name="name" onChange={handleChange}value={formValues.name} />
           </div>
+          <p>{formErrors.fullName}</p>
         </div>
   
         <div class="form-group">
           <div class="col-sm-12">
-            <input type="email" class="form-control" placeholder="EMAIL" name="email" value="" required/>
+            <input type="text" class="form-control"onChange={handleChange} placeholder="EMAIL" name="email" value={formValues.email} />
           </div>
+          <p>{formErrors.email}</p>
         </div>
   
-        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+        <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" ></textarea>
+        <p>{formErrors.textarea}</p>
         
         <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
           <div class="alt-send-button">
