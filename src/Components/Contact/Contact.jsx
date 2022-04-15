@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 
+
 function Contact() {
   return (
     <div><section id="contact">
@@ -11,17 +12,17 @@ function Contact() {
     
     {/* <!-- Left contact page -->  */}
       
-      <form id="contact-form" class="form-horizontal" >
+      <form id="contact-form" class="form-horizontal">
          
         <div class="form-group">
           <div class="col-sm-12">
-            <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required/>
+            <input type="text" class="form-control"  placeholder="NAME" name="name" value="" required/>
           </div>
         </div>
   
         <div class="form-group">
           <div class="col-sm-12">
-            <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required/>
+            <input type="email" class="form-control" placeholder="EMAIL" name="email" value="" required/>
           </div>
         </div>
   

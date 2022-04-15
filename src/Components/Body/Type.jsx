@@ -14,6 +14,7 @@ const Type = () => {
             cursorColor="black"
             text="Make it work, make it right, make it fast"
             typeSpeed={100}
+            
            
           />
 

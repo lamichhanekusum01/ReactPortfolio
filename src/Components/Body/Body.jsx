@@ -12,9 +12,9 @@ function Body() {
   // }
   return (
     <div>
-      {" "}
+    
       <div>
-        {" "}
+      
         <main>
           <div className="primary"></div>
           <div className="right-circle"></div>
@@ -38,7 +38,7 @@ function Body() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              {" "}
+             
               <div className="Icon1"></div>
             </a>
             <a
@@ -46,7 +46,7 @@ function Body() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              {" "}
+          
               <div className="Icon2">
                 <i className="fab fa-facebook-f"></i>
               </div>

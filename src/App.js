@@ -1,10 +1,10 @@
 import "./App.css";
-import Body from "./component/Body/Body";
-import Contact from "./component/Contact/Contact";
-import Nav from "./component/Nav/Nav";
-import Portfolio from "./component/Portfolio/Portfolio";
+import Contact from "./Components/Contact/Contact";
+import Nav from "./Components/Nav/Nav";
+import Portfolio from "./Components/Portfolio/Portfolio";
 import React, { Component } from "react";
 import {BrowserRouter as Router, Routes, Route, } from "react-router-dom";
+import Body from "./Components/Body/Body";
 
 function App() {
   return (
@@ -15,7 +15,8 @@ function App() {
         <Portfolio />
         <Contact /> */}
         <Routes>
-          <Route path="/" element={  <Body />} ></Route>
+          {/* <Route path="/" element={  <Body />} ></Route> */}
+          <Route path="/" element={<Body /> } />
           <Route path="/Contact" element={  <Contact />} ></Route>
           <Route path="/Portfolio" element={ <Portfolio/>} ></Route>
           {/* <Route path="/" element={<><Body /> <Portfolio /> <Contact/></>}></Route> */}
